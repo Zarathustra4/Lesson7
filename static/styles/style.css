@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+@media (max-width: 430px) {
+    p, a {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 430px) {
+    p, a {
+        font-size: 20px;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: rgb(21, 22, 26);
+}
+
+p, a {
+    color: rgb(111, 105, 105);
+    font-family: "Open Sans", sans-serif; 
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+}

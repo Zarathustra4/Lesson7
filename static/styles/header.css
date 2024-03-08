@@ -1,0 +1,13 @@
+header {
+    width: 100%;
+    min-height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+header a {
+    color: rgb(232, 225, 225);
+}
