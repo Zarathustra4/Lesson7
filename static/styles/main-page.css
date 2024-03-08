@@ -1,23 +1,23 @@
-@media (max-width: 430px) {
-    div.welcome {
-        display: none;
-    }
-}
-
-@media (min-width: 430px) {
-    div.welcome {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-}
-
 div.welcome {
     width: 100%;
-    min-height: 600px;
-    background-color: rgb(8, 3, 42);
     padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgb(8, 3, 42);
+}
+
+@media (max-width: 430px) {
+    div.welcome * {
+        display: none;
+    }
+
+    div.welcome {
+        height: 20px;
+        background-color: rgba(0, 0, 0, 0);
+    }
 }
 
 img.avatar {
@@ -30,19 +30,19 @@ img.project-icon {
 }
 
 div.main-projects {
-    display: flex;
     padding: 30px;
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .project {
-    max-width: 300px;
     border: 3px solid rgb(174, 185, 193);
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 300px;
+    padding: 20px;
     margin: 15px;
 }
 
@@ -51,6 +51,18 @@ div.main-projects {
     padding: 6px;
 }
 
-.project a{
+.project a {
     align-self: last baseline;
+}
+
+@media (max-width: 770px) {
+    .main-projects {
+        padding: 7px;
+    }
+
+    .project {
+        max-width: 280px;
+        padding: 7px;
+        margin: 6px;
+    }
 }
