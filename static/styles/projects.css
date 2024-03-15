@@ -12,6 +12,18 @@ div.most-viewed {
     background-color: rgb(13, 13, 43);
 }
 
+.dark-blue-1 {
+    background-color: rgb(10, 10, 31);
+}
+
+.dark-blue-2 {
+    background-color: rgb(18, 18, 51);
+}
+
+.dark-blue-3 {
+    background-color: rgb(8, 8, 29);
+}
+
 .section {
     width: 100%;
     padding-top: 30px;
@@ -28,4 +40,26 @@ div.most-viewed {
     padding: 10px;
     border: 2px solid rgb(230, 218, 148);
     margin-bottom: 10px;
+}
+
+
+.genres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.project-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .genres {
+        flex-direction: column;
+    }
 }
