@@ -40,6 +40,19 @@ div.most-viewed {
     padding: 10px;
     border: 2px solid rgb(230, 218, 148);
     margin-bottom: 10px;
+    transition-duration: .5s;
+}
+
+.project:hover {
+    background-color: rgb(163, 155, 110);
+}
+
+.project:hover p, .project:hover a {
+    color: rgb(70, 64, 64);
+}
+
+.project:hover h2 {
+    color: black;
 }
 
 
