@@ -1,0 +1,30 @@
+div.empty {
+    height: 200px;
+}
+
+div.most-viewed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dark-blue {
+    background-color: rgb(13, 13, 43);
+}
+
+.section {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 70px;
+}
+
+.project {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(230, 218, 148);
+}
